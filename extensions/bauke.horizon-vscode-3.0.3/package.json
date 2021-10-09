@@ -1,0 +1,85 @@
+{
+	"name": "horizon-vscode",
+	"description": "A beautifully warm theme for Visual Studio Code.",
+	"version": "3.0.3",
+	"author": "Bauke <me@bauke.xyz>",
+	"repository": "https://gitlab.com/horizon/horizon-vscode",
+	"bugs": "https://gitlab.com/horizon/horizon-vscode/issues",
+	"license": "MIT",
+	"scripts": {
+		"build": "ts-node source/build.ts",
+		"test": "xo"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@types/mustache": "^4.0.1",
+		"mustache": "^4.0.1",
+		"ts-node": "^8.10.2",
+		"typescript": "^3.9.5",
+		"vsce": "^1.76.1",
+		"xo": "^0.32.0"
+	},
+	"xo": {
+		"extensions": [
+			"ts"
+		],
+		"ignores": [
+			"build/**",
+			"previews/**"
+		],
+		"prettier": true,
+		"rules": {
+			"@typescript-eslint/indent": [
+				"error",
+				2,
+				{
+					"SwitchCase": 1
+				}
+			],
+			"node/no-path-concat": "off",
+			"capitalized-comments": "off",
+			"no-await-in-loop": "off"
+		},
+		"space": true
+	},
+	"displayName": "Horizon Theme",
+	"publisher": "Bauke",
+	"icon": "logo.png",
+	"galleryBanner": {
+		"color": "#FCEAE5",
+		"theme": "light"
+	},
+	"engines": {
+		"vscode": "^1.41.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"light",
+		"dark",
+		"horizon",
+		"warm"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Horizon Dark",
+				"uiTheme": "vs-dark",
+				"path": "themes/horizon-dark.json"
+			},
+			{
+				"label": "Horizon Light",
+				"uiTheme": "vs",
+				"path": "themes/horizon-light.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "6616dc09-8946-4b4c-a6c8-de5fdfa37ec8",
+		"publisherId": "ead861f1-0422-44c3-a985-df7acaa6fa88",
+		"publisherDisplayName": "Bauke",
+		"installedTimestamp": 1633165066412
+	}
+}

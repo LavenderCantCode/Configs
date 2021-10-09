@@ -1,0 +1,35 @@
+{
+	"name": "ultimate-dark-neo",
+	"displayName": "Ultimate Dark Neo",
+	"publisher": "rubjo",
+	"description": "Beautiful bluish dark theme with italics.",
+	"version": "0.0.5",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rubjo/ultimate-dark-neo-vs-code"
+	},
+	"license": "MIT",
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.48.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Ultimate Dark Neo",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Ultimate Dark Neo-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "c0ac4332-1290-4624-bb6e-98f1b6535036",
+		"publisherId": "de5d8713-6529-4f50-8d73-e4a8c30f75cf",
+		"publisherDisplayName": "rubjo",
+		"isMachineScoped": true,
+		"installedTimestamp": 1633804154400
+	}
+}

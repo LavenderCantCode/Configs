@@ -1,0 +1,106 @@
+// VSCODE SETTINGS.JSON
+// Victor Mono: https://rubjo.github.io/victor-mono/
+// Fira Code: https://github.com/tonsky/FiraCode
+// Other extenstions can be found back a file
+{
+    "window.zoomLevel": 1.3,
+    "editor.fontSize": 17,
+    "editor.fontWeight": "500",
+    "editor.lineHeight": 0,
+    "files.autoSave": "afterDelay",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "discord.detailsEditing": "✍️ {file_name} | {current_line}/{total_lines}",
+    "discord.lowerDetailsEditing": "📂 {workspace}/{dir_name} ",
+    "explorer.confirmDragAndDrop": false,
+    "better-comments.tags": [
+
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "@",
+            "color": "#ebcdcd",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "workbench.editor.untitled.hint": "hidden",
+    "discord.largeImageIdling": "💤",
+    "discord.largeImage": "{LANG}",
+    "discord.detailsIdling": "💤",
+    "discord.lowerDetailsIdling": "💤",
+    "discord.smallImage": "",
+    "editor.fontFamily": "Victor Mono, Fira Code",
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "smooth",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#a78bd2",
+        "terminalCursor.foreground": "#a78bd2",
+    },
+    "git.autofetch": true,
+    "workbench.productIconTheme": "material-product-icons",
+    "svelte.enable-ts-plugin": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.useTabs": true,
+    "beautify.config": "",
+    "editor.letterSpacing": 1,
+    "explorer.confirmDelete": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "United Ubuntu",
+}

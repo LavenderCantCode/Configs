@@ -1,0 +1,57 @@
+{
+	"name": "reui",
+	"version": "1.1.6",
+	"displayName": "ReUI",
+	"description": "A VS Code theme based on React's website colors",
+	"publisher": "barrsan",
+	"author": "Alex Baretsky <41ax@mail.ru>",
+	"icon": "icon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/barrsan/reui-vscode-theme"
+	},
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "ReUI Default Bordered (react)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/reui-react-default-bordered.json"
+			},
+			{
+				"label": "ReUI Default Bordered (react-native)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/reui-react-native-default-bordered.json"
+			},
+			{
+				"label": "ReUI Mirage (react)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/reui-react-mirage.json"
+			},
+			{
+				"label": "ReUI Mirage (react-native)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/reui-react-native-mirage.json"
+			}
+		]
+	},
+	"keywords": [
+		"Vscode",
+		"Theme",
+		"react",
+		"react-native",
+		"reui"
+	],
+	"__metadata": {
+		"id": "0eae6865-2e4d-4826-984e-2477655cce84",
+		"publisherId": "48421da3-63f9-4c50-9ada-936fe580c3ec",
+		"publisherDisplayName": "Alex Baretsky",
+		"installedTimestamp": 1633029743970
+	}
+}

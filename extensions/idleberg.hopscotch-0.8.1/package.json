@@ -1,0 +1,89 @@
+{
+	"name": "hopscotch",
+	"displayName": "Hopscotch",
+	"description": "Color scheme inspired by the Hopscotch learning platform for kids",
+	"version": "0.8.1",
+	"publisher": "idleberg",
+	"license": "CC0-1.0",
+	"author": {
+		"name": "Jan T. Sott",
+		"url": "http://github.com/idleberg"
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "vscode-linter",
+		"vscode:prepublish": "npm run test"
+	},
+	"keywords": [
+		"hopscotch"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/idleberg/vscode-hopscotch"
+	},
+	"homepage": "https://github.com/idleberg/vscode-hopscotch#readme",
+	"bugs": {
+		"url": "https://github.com/idleberg/vscode-hopscotch/issues"
+	},
+	"icon": "images/logo.png",
+	"galleryBanner": {
+		"color": "#322931",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Hopscotch",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Hopscotch.json"
+			},
+			{
+				"label": "Hopscotch [proofreader]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Hopscotch [proofreader].json"
+			},
+			{
+				"label": "Hopscotch Mono",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Hopscotch Mono.json"
+			},
+			{
+				"label": "Hopscotch Mono [proofreader]",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Hopscotch Mono [proofreader].json"
+			},
+			{
+				"label": "Hopscotch Classic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Hopscotch Classic.json"
+			},
+			{
+				"label": "Hopscotch (TextMate)",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Hopscotch.tmTheme"
+			}
+		]
+	},
+	"devDependencies": {
+		"husky": "^4.2.5",
+		"vscode": "^1.1.37",
+		"vscode-linter": "^0.3.1"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "npm run test"
+		}
+	},
+	"__metadata": {
+		"id": "7f937559-a3c9-43e0-a62b-0008a5da127b",
+		"publisherId": "d142cf02-af52-4395-9363-148909445cb3",
+		"publisherDisplayName": "idleberg",
+		"installedTimestamp": 1633027273211
+	}
+}
